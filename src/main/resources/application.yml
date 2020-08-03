@@ -1,0 +1,16 @@
+#configuracoes da aplicacao
+app:
+  kafka:
+    topics:
+      recommendation-products: RECOMMENDATION.PRODUCTS
+  service:
+    recommendation:
+      item-limit: 3
+  clients:
+    oms:
+      url: https://dumps.omniplat.io/v1
+      keys:
+        youcom:
+          password: dd3db6c84ea6d7073c652875b4e3f480
+          user: youcom    
+      page-size: 400
